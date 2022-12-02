@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ilana's Website Home</title>   
+        <link rel="stylesheet" type="text/css" href="website.css"/>        
+    </head>
+    <body>
+        <section id="header-wrapper"> 
+            <div id="header-circle">           
+                <h1>Ilana Aronson</h1>      
+            </div>
+
+            <nav id="nav">
+                <a href="index.html" id="home-nav">Home</a>
+                <a href="bio.html" id="bio-nav">About Me</a>
+                <a href="resume.html" id="resume-nav">Resume</a>
+                <a href="contact.html" id="contact-nav">Contact</a>
+            </nav>
+        </section>
+        <div id="ui-project-wrapper">
+            <div id="ui-project-description">
+                <p>This project involved user interface reconstruction to simplify 
+                    the application registration process and improve user experience.</p>
+                <br>
+
+                <div id=key-imgs>
+                    <img src="PM-img/img1.png" alt="User Interface Restructuring Sample Image 1" width= auto height="400">
+                    <img src="PM-img/img2.png" alt="User Interface Restructuring Sample Image 1" width= auto height="400">
+
+                </div>
+                <strong>Research</strong>
+                <br>
+                <p>
+                    To begin the project, research was conducted on existing frameworks 
+                    for user registration processes, as well as investigating our current flow 
+                    to determine irrelevant pages, broken links, and confusing areas.</p>
+                <br>
+                <strong>User flow</strong>
+                <br>
+                <img src="PM-img/user-flow.png" alt="User flow diagram" width= auto height="200">
+                <br>
+                <p>Clients can create a new project through the “Create a new project” button on the 
+                    Dashboard. This button was originally called “Register new app”, and should be 
+                    renamed “create a new project”. This button should redirect the client to the 
+                    project details page with a Bootstrap modal displaying the “create project name” 
+                    window on top of the Dashboard page.
+                </p>
+                <p>
+                    Through the “Create New Project” page, the client names their project. There is one 
+                    text entry field on this screen, for the project name. There is a create button at 
+                    the bottom of the page.
+                </p>
+                <p>
+                    The project name exists to help clients organize/label their projects. This title 
+                    appears on the DC to help keep the UI organized by project. Next to the project 
+                    name field, there is an information icon that explains that the project name is 
+                    displayed on the dashboard. Underneath the input field, there is text detailing 
+                    the technical requirements for the project name field. The project name is limited 
+                    to entries that use text and numbers only, and each project name must be unique. The 
+                    project name field also should be limited to varchar 255. To implement this, the 
+                    field should stop allowing inputs after the maximum size allowance has been exceeded. 
+                    The project name field cannot be left blank.
+                </p>
+                <p>
+                    The client may click the “create” button to finish creating their project and go 
+                    to their project details.
+                </p>
+                <p>
+                    The following error messages exist: “The project name must be unique” (user enters 
+                    an existing project name), “Project must be named” (user clicked create 
+                    without naming the project), and “Only alphanumeric numbers may be used 
+                    for project name” (user entered invalid characters) These messages should be
+                    implemented as bootstrap alerts.
+                </p>
+                <p>
+                    The aim of this project is to redesign the app flow. 
+                    In the old designs, clients had to input their package name as a required 
+                    ield in order to create a new app and get the required credentials. This 
+                    project eliminates the need for entering the package name. Clients only 
+                    need a unique project name to register a new project. Once the project is 
+                    created, clients will be redirected to the credentials page where they can 
+                    access their credentials based on the platform. The scope of the project is to 
+                    create an app flow only for creating a new app. Editing or changing the credentials
+                    page is out of scope for this project.
+                </p>
+                <!-- <p>
+                    Please note that there are hover states for the create button and information icon,
+                    as depicted in the mockups below.
+                </p> -->
+
+            </div>
+
+            <!-- <div id="ui-imgs">           
+                <img src="PM-img/img1.png" alt="Project Mockup Screen 1">
+                <img src="PM-img/img2.png" alt="Project Mockup Screen 2">
+                <img src="PM-img/img3.png" alt="Project Mockup Screen 3">
+                <img src="PM-img/img4.png" alt="Project Mockup Screen 4">
+                <img src="PM-img/img5.png" alt="Project Mockup Screen 5">
+                <img src="PM-img/img6.png" alt="Project Mockup Screen 6">
+                <img src="PM-img/img7.png" alt="Project Mockup Screen 7">
+                <img src="PM-img/img8.png" alt="Project Mockup Screen 8">
+                <img src="PM-img/img9.png" alt="Project Mockup Screen 9">
+                
+                
+            </div> -->
+        </div>
+    </body>
+</html>

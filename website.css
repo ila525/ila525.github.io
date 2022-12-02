@@ -1,0 +1,158 @@
+body {
+    background-color: #fcfcff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67587a;
+}
+
+#header-wrapper {
+    background-color: #cde5ff;
+    padding: 5px;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+    padding-left: 32px;
+}
+
+
+/* referenced https://stackoverflow.com/questions/4206348/how-can-i-center-this-link */
+#nav a:link {
+    padding: 10px 60px;
+    display: inline-block;
+    color: #006399;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: transparent;
+  }
+#nav a:active {
+    text-decoration: underline;
+    background-color: transparent;
+    color: #006399;
+}
+
+#nav a:visited {
+    color: #006399;
+
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#header-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* background-color: #67587a; */
+    background-color: #e6d49d;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    display: table;
+}
+
+h1 {
+    /* color: #36454F; */
+    /* color: #eddcff; */
+    color: #231b00;
+    vertical-align:middle;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 52;
+}
+
+h2 a:link {
+    color: #67587a;
+    text-decoration: none;
+}
+
+h2 a:visited {
+    color: #67587a;
+    text-decoration: none;
+
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+
+#project-wrapper { 
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-gap: 100px; */
+
+    align-content: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 150px;
+    text-align: center;
+
+}
+
+#contact-body {
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+#contact-box {
+    /* display: inline-block; */
+    background-color: #f0f6ff;
+    padding: 15%;
+    /* width: 75%; */
+}
+
+#form-body label {
+    text-align: left;
+}
+
+#blurb {
+    text-align: center;
+    font-size: large;
+}
+
+#ui-imgs { 
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-gap: 100px; */
+    align-items: stretch;
+    
+
+}
+
+#bio-wrapper {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#bio-box {
+    display: inline-block;
+    background-color: #f0f6ff;
+    width: 75%;
+    text-align: left;
+}
+
+#ui-project-wrapper {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#ui-project-description {
+    display: inline-block;
+    background-color: #f0f6ff;
+    width: 75%;
+    text-align: left;
+}
+
+#ui-project-description img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

@@ -1,0 +1,63 @@
+<!-- 
+1. Name
+2. Email
+3. Phone number
+4. Reason for contact (checkbox)
+5. Message 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>   
+        <link rel="stylesheet" type="text/css" href="website.css"/>        
+    </head>
+    <body>
+    
+        <section id="header-wrapper"> 
+            <div id="header-circle">           
+                <h1>Ilana Aronson</h1>      
+            </div>
+
+            <div id="nav">
+                <a href="index.html">Home</a>
+                <a href="bio.html">About Me</a>
+                <a href="resume.html">Resume</a>
+                <a class="active" href="contact.html">Contact</a>
+            </div>
+            
+        </section>
+
+        <p id="blurb">Get in touch! </p>
+        <p id="blurb"> You can reach me at ilanaaronson2023[at]u[dot]northwestern[dot]edu or through the form below.</p><br>
+
+        <div id="contact-body">
+            <div id="contact-box">
+                <form id="form-body">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+
+                    <!-- <label for="phone">Phone Number:</label><br>
+                    <input type="text" id="phone" name="phone"><br> -->
+
+                    <label for="checkbox-selection">Reason for contacting:</label><br>
+                    <input type="checkbox" id="job-opportunity" name="job-opportunity" value="Job Opportunity">
+                    <label for="job-opportunity">Job Opportunity</label><br>
+                    <input type="checkbox" id="coffee-chat" name="coffee-chat" value="Coffee Chat">
+                    <label for="coffee-chat"> Coffee Chat</label><br>
+                    <input type="checkbox" id="other" name="other" value="Other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other" name="other"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message"><br><br>
+
+                    <input type="submit" value="Submit">                          
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
