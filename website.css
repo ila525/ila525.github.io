@@ -156,3 +156,8 @@ h2 a:hover {
     margin-right: auto;
     display: block;
 }
+
+#resume-body {
+    text-align: center;
+    padding: 2%;
+}
